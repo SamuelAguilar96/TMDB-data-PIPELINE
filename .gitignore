@@ -1,0 +1,6 @@
+.env
+
+__pycache__/
+*.pyc
+
+mis_500_peliculas_tmdb.csv
