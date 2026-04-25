@@ -19,3 +19,11 @@ Pipeline ETL modular en Python y PostgreSQL para procesar datos de The Movie Dat
 **1. Instalar dependencias:**
 ```bash
 pip install -r requirements.txt
+
+TOKEN_API=tu_token_aqui
+DB_PASS=tu_password_aqui
+
+python extractor.py
+python transformer.py
+python loader.py
+python exporter.py
